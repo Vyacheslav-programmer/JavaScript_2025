@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"> <!-- Указываем кодировку страницы -->
+    <title>Калькулятор</title> <!-- Заголовок страницы -->
+    <link rel="stylesheet" href="bank_style.css"> <!-- Подключаем файл стилей -->
+</head>
+<body>
+    <!-- Заголовок лабораторной работы -->
+    <div class="lab-header">
+        ЛР №1 Пронин В.К. ИУ5Ц-63Б
+    </div>
+
+    <!-- Шапка с навигацией -->
+    <header class="kitt-header">
+        <div class="kitt-content">
+            <!-- Логотип (пустая ссылка) -->
+            <a href="#" class="kitt-header__logo kitt-header__logo_shift" aria-label="Логотип"></a>
+            <!-- Навигационное меню -->
+            <nav class="kitt-nav">
+                <a href="#" class="kitt-nav__link">Главная</a>
+                <a href="#" class="kitt-nav__link">История</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Контейнер для содержимого -->
+    <div id="content-container">
+        <!-- Блок калькулятора -->
+        <div id="calculator" class="calculator">
+            <!-- Экран калькулятора для вывода результата -->
+            <div id="result" class="result">0</div>
+            <!-- Контейнер для кнопок -->
+            <div class="buttons">
+                <!-- Первая строка кнопок: очистка, смена знака, процент, деление -->
+                <div class="row">
+                    <button id="btn_op_clear" class="my-btn secondary">C</button>
+                    <button id="btn_op_sign" class="my-btn secondary">+/-</button>
+                    <button id="btn_op_percent" class="my-btn secondary">%</button>
+                    <button id="btn_op_div" class="my-btn primary">/</button>
+                </div>
+                <!-- Вторая строка: цифры 7, 8, 9 и умножение -->
+                <div class="row">
+                    <button id="btn_digit_7" class="my-btn">7</button>
+                    <button id="btn_digit_8" class="my-btn">8</button>
+                    <button id="btn_digit_9" class="my-btn">9</button>
+                    <button id="btn_op_mult" class="my-btn primary">x</button>
+                </div>
+                <!-- Третья строка: цифры 4, 5, 6 и вычитание -->
+                <div class="row">
+                    <button id="btn_digit_4" class="my-btn">4</button>
+                    <button id="btn_digit_5" class="my-btn">5</button>
+                    <button id="btn_digit_6" class="my-btn">6</button>
+                    <button id="btn_op_minus" class="my-btn primary">-</button>
+                </div>
+                <!-- Четвертая строка: цифры 1, 2, 3 и сложение -->
+                <div class="row">
+                    <button id="btn_digit_1" class="my-btn">1</button>
+                    <button id="btn_digit_2" class="my-btn">2</button>
+                    <button id="btn_digit_3" class="my-btn">3</button>
+                    <button id="btn_op_plus" class="my-btn primary">+</button>
+                </div>
+                <!-- Пятая строка: 0, точка, корень, модуль и равно -->
+                <div class="row">
+                    <button id="btn_digit_0" class="my-btn zero">0</button>
+                    <button id="btn_digit_dot" class="my-btn">.</button>
+                    <button id="btn_op_sqrt" class="my-btn secondary">√</button>
+                    <button id="btn_op_abs" class="my-btn secondary">|x|</button>
+                    <button id="btn_op_equal" class="my-btn primary execute">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
