@@ -1,0 +1,19 @@
+{
+  "name": "bmstu-lab3",
+  "version": "1.0.0",
+  "description": "Лабораторная работа 3 - простое веб-приложение для МГТУ им. Н.Э. Баумана",
+  "main": "main.js",
+  "scripts": {
+    "start": "live-server --open=index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["bmstu", "lab3", "javascript", "bootstrap"],
+  "author": "Пронин Вячеслав Константинович",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
