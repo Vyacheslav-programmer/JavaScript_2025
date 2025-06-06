@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "src": "https://api.mirror.bmstu.ru/upload/faculty/14/64bf9c97ce763.png",
+        "title": "Факультет ГУИМЦ"
+    },
+    {
+        "id": 2,
+        "src": "https://api.mirror.bmstu.ru/upload/faculty/1/64f737e27ab0a.png",
+        "title": "Факультет ИУ"
+    },
+    {
+        "id": 3,
+        "src": "https://api.mirror.bmstu.ru/upload/faculty/2/64bf9c2a4b80e.png",
+        "title": "Факультет ИБМ"
+    }
+]

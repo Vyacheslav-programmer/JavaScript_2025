@@ -1,0 +1,10 @@
+{
+    "id": 3,
+    "src": "https://api.mirror.bmstu.ru/upload/faculty/2/64bf9c2a4b80e.png",
+    "title": "Факультет ИБМ",
+    "text": "Инженерный бизнес и менеджмент для подготовки управленцев.",
+    "departments": [
+        { "name": "ИБМ1", "description": "Экономика и бизнес" },
+        { "name": "ИБМ4", "description": "Менеджмент" }
+    ]
+}
